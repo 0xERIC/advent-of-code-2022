@@ -1,0 +1,8 @@
+{
+    "build": {
+        "dockerfile": "../docker/development/Dockerfile"
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.gitconfig,target=/host-home-folder,type=bind"
+    ]
+}
